@@ -1,0 +1,14 @@
+.hero {
+}
+.hero {
+  padding: 5rem $container-space;
+
+  &__title {
+    font-size: 3.6rem;
+  }
+
+  &__description {
+    color: $color-gray;
+    padding-bottom: 1rem;
+  }
+}

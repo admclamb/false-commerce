@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  padding: 1rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button-primary {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.button-outline-primary {
+  border: solid 2px $color-primary;
+  background-color: inherit;
+  color: $color-primary;
+}
+
+.button-wide {
+  width: 8rem;
+  border-radius: 10px;
+}
